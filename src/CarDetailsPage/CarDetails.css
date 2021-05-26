@@ -1,0 +1,61 @@
+.divsec1{
+    background-image: url('../Images/modelScard.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    margin-top: -5px;
+    position: relative;
+}
+
+.renderCarDetails{
+
+    width: 100%;
+    height: 100vh;
+}
+
+.specsConatiner{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.carDetailsBox{
+    width: 50%;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.divsec2{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-between;
+}
+.carImage{
+    background-image: url('../Images/specs.png');
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.carSpecs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

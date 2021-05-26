@@ -1,0 +1,206 @@
+.configureContainer{
+    height: auto;
+    overflow: scroll;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.displayImg{
+    width: 70%;
+    height: 80vh;
+    padding: 10%;
+    /* border: 1px solid black; */
+}
+.configCon{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+/* Acceleration Section */
+.accSection{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.accSection h4 {
+    font-size: 48px;
+line-height: 60px;
+font-weight: normal;
+color: #000;
+}
+.accDetails{
+    width: 100%;
+    padding: 5% 20% 0% 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.accItem :last-child{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #787878;
+}
+.accItem :first-child {
+    font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+}
+/* Buttons Section */
+.buttonsSection{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+/* Paint Section */
+.paintSection{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.sectionHeading{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+}
+.paintSelection{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 20px 50px;
+   
+}
+.paint{
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.paint:hover{
+     border: 2px solid #097BE4;
+}
+.White{
+    background: radial-gradient(50% 50% at 50% 50%, #B1ACAC 0%, #FFFFFF 0.01%, rgba(194, 190, 190, 0.44) 100%);
+   
+}
+.Red{
+    background: radial-gradient(50% 50% at 50% 50%, #D81414 0%, #B80808 0.01%, #FF5151 100%);
+}
+.Black{
+    background: radial-gradient(50% 50% at 50% 50%, #1B1818 0%, #777474 0.01%, #302E2E 100%);
+}
+/* For Interiors */
+#White{
+    background: radial-gradient(50% 50% at 50% 50%, #1B1818 0%, #777474 0.01%, #302E2E 100%);
+   
+}
+#Red{
+    background: #F3E4DC;
+}
+#Black{
+    background: #F4F1F1;
+}
+
+.paintDetails{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 30px;
+}
+.paintDetails :first-child{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000
+
+}
+.paintDetails :last-child{
+    font-weight: normal;
+    font-size: 16px;
+   line-height: 20px;
+   color: #787878;
+}
+.wheelsImg{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+.wheelsImg:hover{
+    border: 2px solid #097BE4;
+}
+
+/* Self Driving Section */
+.selfDrivingSection{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.ftext{
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+text-align: center;
+}
+.pDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    width: 180px;
+}
+.ctext{
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+}
+
+/* Order Your Model */
+.orderHeading{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.orderText{
+ font-size: 14px;
+ line-height: 17px;
+ color: #464646;
+ margin-bottom: 10px;
+}
+
+/* Mobile View */
+
+@media only screen and (max-width:376px) {
+   .configureContainer{
+       flex-direction: column;
+   }
+   .displayImg{
+       width: 100%;
+   }
+   .configCon{
+       width: 100%;
+   }
+    
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check if the All Cars Page is rendered properly or not 1`] = `
+<div
+  class="AllCarContainer"
+>
+  <div
+    class="cardlist"
+  />
+</div>
+`;

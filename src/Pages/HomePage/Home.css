@@ -1,0 +1,36 @@
+
+.bg{
+    height:100%;
+    width: 100%;
+}
+.logo{
+    height: 12px;
+    width: 117.39px;
+    background-image: url('../../Images/Vector.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+.landingPage{
+   height: 100vh;
+   width: 100%;
+   background-image: url('../../Images/landing.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: -15px;
+   
+} 
+
+@media only screen  and (max-width : 376px){
+   
+    .landingPage{
+        background-image: url('../../Images/mobilehome.png');
+
+    }
+    
+}
+

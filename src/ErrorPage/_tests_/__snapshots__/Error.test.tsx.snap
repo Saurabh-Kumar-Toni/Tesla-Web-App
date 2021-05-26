@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check if Form component is rendered properly or not 1`] = `
+<div
+  class="error"
+>
+  <h3>
+    OOPS!! Looks Like this page doesn't exists
+  </h3>
+  <h5>
+    Why don't you try to explore our Home Page
+  </h5>
+</div>
+`;
+
+exports[`check if the Error page is rendered properly or not 1`] = `
+<div
+  class="error"
+>
+  <h3>
+    OOPS!! Looks Like this page doesn't exists
+  </h3>
+  <h5>
+    Why don't you try to explore our Home Page
+  </h5>
+</div>
+`;

@@ -1,0 +1,59 @@
+.card{
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 340px;
+    width: 300px;
+}
+
+.commonImg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    width: 100%;
+}
+
+.modelS{
+    background-image: url('../Images/modelScard.png');
+}
+.model3{
+    background-image: url('../Images/model3card.png');
+}
+.modelX{
+    background-image: url('../Images/modelxcard.png');
+}
+.modelY{
+    background-image: url('../Images/modelycard.png');
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -18px;
+    padding: 0px 0px 0px 0px;
+    height: 50px;
+    margin-right: 3px;
+}
+
+.carDesc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* .heading{
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-between;
+} */
+
+.carDetails{
+    margin-top: 2px;
+    line-height: 10pt;
+    font-size: 10pt;
+    font-style: inherit;
+}
+
+.cardList{
+    justify-content: space-between;
+}

@@ -1,0 +1,110 @@
+.btn{
+    position: absolute;
+    left: 42.5%;
+    bottom: 5%;
+    background-color: #464646;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 54px;
+    font-size: 14px;
+    line-height: 18px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    
+
+}
+
+.order{
+    background-color: #464646;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 54px;
+    font-size: 14px;
+    line-height: 18px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    left: 42%;
+}
+
+.specBtn{
+    background-color: #464646;
+    border: 2px solid white;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 54px;
+    font-size: 14px;
+    line-height: 18px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    bottom: 5%;
+
+}
+
+/* Configure Page Buttons */
+.configBtn{
+    width: 100%;
+    height: 55px;
+    background: #FFFFFF;
+    border: 2px solid #787878;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+
+  }
+  .configBtn:hover{
+    border: 2px solid #097BE4;
+  }
+  .addBtn{
+    position: absolute;
+    left: 40%;
+    width: 112px;
+    height: 22px;
+    background: #097BE4;
+    border-radius: 50px;
+  }
+  .removeBtn{
+    position: absolute;
+    width: 112px;
+    height: 22px;
+    left: 40%;
+   background: #464646;
+   border-radius: 50px;
+   color: #FFFFFF;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 15px;
+  }
+  .configOrderBtn{
+    width: 240px;
+    height: 36px;   
+    background: #097BE4;
+    border-radius: 50px;
+  }
+
+
+  @media only screen  and (max-width : 376px){
+   
+    .btn{
+        position: absolute;
+        left: 22%;
+    }
+    
+}

@@ -1,0 +1,383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check if the Error page is rendered properly or not 1`] = `
+<main
+  class="orderContainer"
+>
+  <section
+    class="orderCompleteSection"
+  >
+    <img
+      alt="done img"
+      height="52px"
+      src="greentick.png"
+      width="52px"
+    />
+    <h1
+      class="text1"
+    >
+      Your Order is Complete
+    </h1>
+  </section>
+  <section>
+    <img
+      alt="success img"
+      height="323px"
+      src="mouse.png"
+      width="306px"
+    />
+  </section>
+  <section
+    class="summarySection"
+    style="width: 375px;"
+  >
+    <div
+      class="accSection"
+    >
+      <h4
+        class="text2"
+      >
+        Model S
+      </h4>
+      <div
+        class="accDetails"
+      >
+        <div
+          class="accItem"
+        >
+          <p>
+            320 mi
+          </p>
+          <p>
+            Est Range
+          </p>
+        </div>
+        <div
+          class="accItem"
+        >
+          <p>
+            250 mph
+          </p>
+          <p>
+            Top Speed
+          </p>
+        </div>
+        <div
+          class="accItem"
+        >
+          <p>
+            1.99
+          </p>
+          <p>
+            0-60
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img
+        src="red.png"
+        width="100%"
+      />
+    </div>
+    <div
+      class="buttonsSection"
+    >
+      <button
+        class="configBtn"
+      >
+        Plaid+	 $149990
+      </button>
+    </div>
+  </section>
+  <section
+    class="featuresSection"
+  >
+    <div
+      class="featuresItem"
+    >
+      <div
+        class="accItem"
+      >
+        <p>
+          Red Multi-Coat
+        </p>
+        <p>
+          $ 2500
+        </p>
+      </div>
+      <div
+        class="paint Red"
+      />
+    </div>
+    <div
+      class="featuresItem"
+    >
+      <div
+        class="accItem"
+      >
+        <p>
+          Tempest 19” Wheels
+        </p>
+        <p>
+          Included
+        </p>
+      </div>
+      <div>
+        <img
+          alt="Tempest 19” Wheels"
+          class="wheelsImg"
+          src="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/option-wheels-20-uberturbine.png?&version=v0028d202104080411"
+        />
+      </div>
+    </div>
+    <div
+      class="featuresItem"
+    >
+      <div
+        class="accItem"
+      >
+        <p>
+          All Black Decor
+        </p>
+        <p>
+          Included
+        </p>
+      </div>
+      <div
+        class="paint"
+        id="Red"
+      />
+    </div>
+    <div
+      class="featuresItem"
+    >
+      <div
+        class="accItem"
+      >
+        <p>
+          Full self-driving capabilities
+        </p>
+        <p>
+          $ 
+          10000
+        </p>
+      </div>
+    </div>
+  </section>
+  <section
+    class="footerSection"
+  >
+    <button
+      class="configOrderBtn bg-light"
+    >
+      $ 162,490
+    </button>
+    <div
+      class="buttonContainer"
+    >
+      <button
+        class="configOrderBtn"
+      >
+        Explore Model S
+      </button>
+      <button
+        class="configOrderBtn bg-dark"
+      >
+        Download Invoice
+      </button>
+    </div>
+  </section>
+</main>
+`;
+
+exports[`check if the Order page is rendered properly or not 1`] = `
+<main
+  class="orderContainer"
+>
+  <section
+    class="orderCompleteSection"
+  >
+    <img
+      alt="done img"
+      height="52px"
+      src="greentick.png"
+      width="52px"
+    />
+    <h1
+      class="text1"
+    >
+      Your Order is Complete
+    </h1>
+  </section>
+  <section>
+    <img
+      alt="success img"
+      height="323px"
+      src="mouse.png"
+      width="306px"
+    />
+  </section>
+  <section
+    class="summarySection"
+    style="width: 375px;"
+  >
+    <div
+      class="accSection"
+    >
+      <h4
+        class="text2"
+      >
+        Model S
+      </h4>
+      <div
+        class="accDetails"
+      >
+        <div
+          class="accItem"
+        >
+          <p>
+            320 mi
+          </p>
+          <p>
+            Est Range
+          </p>
+        </div>
+        <div
+          class="accItem"
+        >
+          <p>
+            250 mph
+          </p>
+          <p>
+            Top Speed
+          </p>
+        </div>
+        <div
+          class="accItem"
+        >
+          <p>
+            1.99
+          </p>
+          <p>
+            0-60
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img
+        src="red.png"
+        width="100%"
+      />
+    </div>
+    <div
+      class="buttonsSection"
+    >
+      <button
+        class="configBtn"
+      >
+        Plaid+	 $149990
+      </button>
+    </div>
+  </section>
+  <section
+    class="featuresSection"
+  >
+    <div
+      class="featuresItem"
+    >
+      <div
+        class="accItem"
+      >
+        <p>
+          Red Multi-Coat
+        </p>
+        <p>
+          $ 2500
+        </p>
+      </div>
+      <div
+        class="paint Red"
+      />
+    </div>
+    <div
+      class="featuresItem"
+    >
+      <div
+        class="accItem"
+      >
+        <p>
+          Tempest 19” Wheels
+        </p>
+        <p>
+          Included
+        </p>
+      </div>
+      <div>
+        <img
+          alt="Tempest 19” Wheels"
+          class="wheelsImg"
+          src="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/option-wheels-20-uberturbine.png?&version=v0028d202104080411"
+        />
+      </div>
+    </div>
+    <div
+      class="featuresItem"
+    >
+      <div
+        class="accItem"
+      >
+        <p>
+          All Black Decor
+        </p>
+        <p>
+          Included
+        </p>
+      </div>
+      <div
+        class="paint"
+        id="Red"
+      />
+    </div>
+    <div
+      class="featuresItem"
+    >
+      <div
+        class="accItem"
+      >
+        <p>
+          Full self-driving capabilities
+        </p>
+        <p>
+          $ 
+          10000
+        </p>
+      </div>
+    </div>
+  </section>
+  <section
+    class="footerSection"
+  >
+    <button
+      class="configOrderBtn bg-light"
+    >
+      $ 162,490
+    </button>
+    <div
+      class="buttonContainer"
+    >
+      <button
+        class="configOrderBtn"
+      >
+        Explore Model S
+      </button>
+      <button
+        class="configOrderBtn bg-dark"
+      >
+        Download Invoice
+      </button>
+    </div>
+  </section>
+</main>
+`;
